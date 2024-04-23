@@ -1,15 +1,14 @@
-import './App.css'
-import {Layout} from './components/layout/layout'
+import "./App.css";
+import { Layout } from "./components/layout/layout";
 
 function App() {
   return (
     <Layout>
       <section>
-          <h2 className='text-center'>Rendering Lists</h2>
-
-        </section>
+        <h2 className="text-center">Rendering av Lister</h2>
+      </section>
     </Layout>
-  )
+  );
 }
 
-export default App
+export default App;
