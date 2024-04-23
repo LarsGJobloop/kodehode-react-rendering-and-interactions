@@ -1,0 +1,70 @@
+/* Overrides */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+/* Color Palettes */
+:root {
+  --color-text: #090c0b;
+  --color-background: #f5f7f7;
+  --color-primary: #72958d;
+  --color-secondary: #b1bcc4;
+  --color-accent: #919dac;
+}
+
+/* Sizes */
+:root {
+  --size-sm: calc(2px * 1);
+  --size-md: calc(2px * 3);
+  --size-lg: calc(2px * 6);
+}
+
+/* Utilities */
+.text-center {
+  text-align: center;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.items-center {
+  align-items: center;
+}

@@ -1,0 +1,9 @@
+.margin {
+  padding: 1em 0.5em;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+}
