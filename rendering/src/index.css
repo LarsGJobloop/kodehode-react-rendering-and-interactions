@@ -49,6 +49,14 @@ ol {
   display: flex;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -57,6 +65,6 @@ ol {
   justify-content: end;
 }
 
-.align-center {
+.items-center {
   align-items: center;
 }
